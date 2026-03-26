@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/gjma_et_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Nombres"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Apellidos"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_dividendo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Dividendo"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_divisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Divisor"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_parte_entera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Parte Entera"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_residuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Residuo"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_num_invertido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Num Invertido"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/gjma_btn_siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siguiente" />
+
+    <Button
+        android:id="@+id/gjma_btn_mostrar_resultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Resultados" />
+
+</LinearLayout>

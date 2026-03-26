@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/gjma_et_nombres_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Nombres"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_apellidos_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Apellidos"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_dividendo_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:hint="Dividendo"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_divisor_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:hint="Divisor"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/gjma_et_num_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:hint="num"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/gjma_btn_cerrar_s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar" />
+
+</LinearLayout>

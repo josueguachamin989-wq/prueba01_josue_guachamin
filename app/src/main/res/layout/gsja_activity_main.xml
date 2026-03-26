@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOLO DE LECTURA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/gsja_et_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombres:"
+        android:enabled="false"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/gsja_et_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos:"
+        android:enabled="false"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/gsja_et_dividendo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer número:"
+        android:enabled="false"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/gsja_et_divisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo número:"
+        android:enabled="false"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/gsja_et_parte_entera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Multiplicación:"
+        android:enabled="false"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/gsja_et_residuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Potencia:"
+        android:enabled="false"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/gsja_et_num_invertido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Factorial:"
+        android:enabled="false"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/gsja_btn_siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8BC34A"
+        android:text="Siguiente" />
+
+    <Button
+        android:id="@+id/gsja_btn_mostrar_resultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#757575"
+        android:text="Mostrar Resultados" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR: Nombre y Apellido\nAL REGRESAR"
+        android:textColor="#F44336"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/gsja_et_nombres_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombres:"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/gsja_et_apellidos_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos:"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/gsja_et_dividendo_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer número:"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/gsja_et_divisor_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo número:"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/gsja_btn_siguiente_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8BC34A"
+        android:text="Siguiente" />
+
+    <Button
+        android:id="@+id/gsja_btn_cerrar_s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#757575"
+        android:text="Cerrar"
+        android:enabled="false" />
+
+</LinearLayout>
